@@ -67,7 +67,10 @@
   <ItemGroup>
     <Content Include="bootstrap.css" />
     <Content Include="Home.aspx" />
+    <Content Include="Media.aspx" />
+    <Content Include="Team.aspx" />
     <Content Include="Web.config" />
+    <Content Include="Wedstrijdinfo.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Competitie.cs" />
@@ -81,11 +84,32 @@
     <Compile Include="Manager.cs" />
     <Compile Include="Materiaal.cs" />
     <Compile Include="Mededeling.cs" />
+    <Compile Include="Media.aspx.cs">
+      <DependentUpon>Media.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Media.aspx.designer.cs">
+      <DependentUpon>Media.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Media.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Speler.cs" />
+    <Compile Include="Team.aspx.cs">
+      <DependentUpon>Team.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Team.aspx.designer.cs">
+      <DependentUpon>Team.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Team.cs" />
     <Compile Include="Wedstrijd.cs" />
+    <Compile Include="Wedstrijdinfo.aspx.cs">
+      <DependentUpon>Wedstrijdinfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Wedstrijdinfo.aspx.designer.cs">
+      <DependentUpon>Wedstrijdinfo.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

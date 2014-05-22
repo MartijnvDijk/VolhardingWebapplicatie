@@ -1,10 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="VolhardingWebapplicatie.Home" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Media.aspx.cs" Inherits="VolhardingWebapplicatie.Media1" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>RKVV-Volharding - Home</title>
+    <title>RKVV-Volharding - Media</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
@@ -24,9 +24,9 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="Home.aspx">Home</a></li>
-        <li><a href="Media.aspx">Media</a></li>
-        <li><a href ="Team.aspx">Team</a></li>
+        <li><a href="Home.aspx">Home</a></li>
+        <li class="active"><a href="Media.aspx">Media</a></li>
+         <li><a href ="Team.aspx">Team</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="Wedstrijdinfo.aspx">Wedstrijdinfo</a></li>
