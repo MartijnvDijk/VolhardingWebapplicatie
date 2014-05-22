@@ -65,10 +65,27 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bootstrap.css" />
+    <Content Include="Home.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Competitie.cs" />
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager.cs" />
+    <Compile Include="Materiaal.cs" />
+    <Compile Include="Mededeling.cs" />
+    <Compile Include="Media.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Speler.cs" />
+    <Compile Include="Team.cs" />
+    <Compile Include="Wedstrijd.cs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
