@@ -39,6 +39,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Oracle.DataAccess, Version=4.112.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\oraclexe\app\oracle\product\11.2.0\server\odp.net\bin\4\Oracle.DataAccess.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -65,49 +69,49 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bootstrap.css" />
-    <Content Include="Home.aspx" />
-    <Content Include="Media.aspx" />
-    <Content Include="Team.aspx" />
+    <Content Include="Layout\bootstrap.css" />
+    <Content Include="GUI\Home.aspx" />
+    <Content Include="GUI\Media.aspx" />
+    <Content Include="GUI\Team.aspx" />
     <Content Include="Web.config" />
-    <Content Include="Wedstrijdinfo.aspx" />
+    <Content Include="GUI\Wedstrijdinfo.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Competitie.cs" />
-    <Compile Include="Home.aspx.cs">
+    <Compile Include="Classes\Competitie.cs" />
+    <Compile Include="GUI\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Home.aspx.designer.cs">
+    <Compile Include="GUI\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Manager.cs" />
-    <Compile Include="Materiaal.cs" />
-    <Compile Include="Mededeling.cs" />
-    <Compile Include="Media.aspx.cs">
+    <Compile Include="Classes\Manager.cs" />
+    <Compile Include="Classes\Materiaal.cs" />
+    <Compile Include="Classes\Mededeling.cs" />
+    <Compile Include="GUI\Media.aspx.cs">
       <DependentUpon>Media.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Media.aspx.designer.cs">
+    <Compile Include="GUI\Media.aspx.designer.cs">
       <DependentUpon>Media.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Media.cs" />
+    <Compile Include="Classes\Media.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Speler.cs" />
-    <Compile Include="Team.aspx.cs">
+    <Compile Include="Classes\Speler.cs" />
+    <Compile Include="GUI\Team.aspx.cs">
       <DependentUpon>Team.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Team.aspx.designer.cs">
+    <Compile Include="GUI\Team.aspx.designer.cs">
       <DependentUpon>Team.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Team.cs" />
-    <Compile Include="Wedstrijd.cs" />
-    <Compile Include="Wedstrijdinfo.aspx.cs">
+    <Compile Include="Classes\Team.cs" />
+    <Compile Include="Classes\Wedstrijd.cs" />
+    <Compile Include="GUI\Wedstrijdinfo.aspx.cs">
       <DependentUpon>Wedstrijdinfo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Wedstrijdinfo.aspx.designer.cs">
+    <Compile Include="GUI\Wedstrijdinfo.aspx.designer.cs">
       <DependentUpon>Wedstrijdinfo.aspx</DependentUpon>
     </Compile>
   </ItemGroup>

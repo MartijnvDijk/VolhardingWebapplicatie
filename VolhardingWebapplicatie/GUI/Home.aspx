@@ -6,6 +6,7 @@
 <head runat="server">
     <title>RKVV-Volharding - Home</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <nav class="navbar navbar-default" role="navigation">
