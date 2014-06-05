@@ -73,6 +73,7 @@
     <Content Include="GUI\Home.aspx" />
     <Content Include="GUI\Media.aspx" />
     <Content Include="GUI\Team.aspx" />
+    <Content Include="GUI\Login.aspx" />
     <Content Include="Web.config" />
     <Content Include="GUI\Wedstrijdinfo.aspx" />
   </ItemGroup>
@@ -96,6 +97,13 @@
       <DependentUpon>Media.aspx</DependentUpon>
     </Compile>
     <Compile Include="Classes\Media.cs" />
+    <Compile Include="GUI\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GUI\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Classes\Speler.cs" />
     <Compile Include="GUI\Team.aspx.cs">

@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>RKVV-Volharding - Media</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="../Layout/bootstrap.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <nav class="navbar navbar-default" role="navigation">
@@ -18,7 +18,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="Home.aspx">Brand</a>
+      <a class="navbar-brand" href="Home.aspx">Volharding</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->

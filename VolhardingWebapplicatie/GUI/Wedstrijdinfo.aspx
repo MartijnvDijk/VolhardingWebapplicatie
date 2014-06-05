@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>RKVV-Volharding - Wedstrijdinfo</title>
-    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="../Layout/bootstrap.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -19,15 +19,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="../Home.aspx">Brand</a>
+      <a class="navbar-brand" href="Home.aspx">Volharding</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="../Home.aspx">Home</a></li>
-        <li><a href="../Media.aspx">Media</a></li>
-        <li><a href ="../Team.aspx">Team</a></li>
+        <li><a href="Home.aspx">Home</a></li>
+        <li><a href="Media.aspx">Media</a></li>
+        <li><a href ="Team.aspx">Team</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="Wedstrijdinfo.aspx">Wedstrijdinfo</a></li>

@@ -5,10 +5,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>RKVV-Volharding - Home</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="../Layout/bootstrap.css" rel="stylesheet" type="text/css"/>
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
+    <form id="form1" runat="server">
     <nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -19,7 +20,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="Home.aspx">Brand</a>
+      <a class="navbar-brand" href="Home.aspx">Volharding</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -35,5 +36,7 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+        <asp:HyperLink ID="HyperLinkLogin" runat="server"><a href="Login.aspx">Login</a></asp:HyperLink>
+    </form>
 </body>
 </html>

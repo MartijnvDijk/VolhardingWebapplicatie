@@ -12,23 +12,23 @@ namespace VolhardingWebapplicatie
         Team team = new Team();
         Manager manager = new Manager();
         Materiaal materiaal = new Materiaal();
+        //Team team1 = new Team("VolhardingA1");
         protected void Page_Load(object sender, EventArgs e)
         {
-            Team team1 = new Team("VolhardingA1");
-            team.TeamLijst.Add(team1);
-            foreach (Team t in team.TeamLijst)
-            {
-                DropDownListTeam.Items.Add((t.Naam));
-            }
+            //team.TeamLijst.Add(team1);
+            //foreach (Team t in team.TeamLijst)
+            //{
+            //    DropDownListTeam.Items.Add((t.Naam));
+            //}
 
-            DropDownListMateriaal.DataSource = Enum.GetValues(typeof(Spullen));
-            DropDownListMateriaal.DataBind();
+            //DropDownListMateriaal.DataSource = Enum.GetValues(typeof(Spullen));
+            //DropDownListMateriaal.DataBind();
 
         }
 
         protected void BtnMateriaalToevoegen_Click(object sender, EventArgs e)
         {
-            materiaal.MateriaalToevoegen(DropDownListMateriaal.SelectedItem.ToString(), Convert.ToInt32(tbAantalMateriaal.Text), team.SelecteerTeam(DropDownListTeam.SelectedItem.Value));
+            //materiaal.MateriaalToevoegen(DropDownListMateriaal.SelectedItem.ToString(), Convert.ToInt32(tbAantalMateriaal.Text), team.SelecteerTeam(DropDownListTeam.SelectedItem.Value));
         }
     }
 }
